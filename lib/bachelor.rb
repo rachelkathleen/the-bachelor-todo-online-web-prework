@@ -18,8 +18,8 @@ def get_contestant_name(data, occupation)
 end
 
 def count_contestants_by_hometown(data, hometown)
-  data.each do |season, contestants|
-    contestants.each do |contestant_hash|
+  #data.each do |season, contestants|
+    #contestants.each do |contestant_hash|
 end
 
 def get_occupation(data, hometown)
@@ -32,6 +32,6 @@ def get_occupation(data, hometown)
   end
 end
 
-def get_average_age_for_season(data, season)
+#def get_average_age_for_season(data, season)
   # code here
-end
+#end

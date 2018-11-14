@@ -1,7 +1,6 @@
 require 'pry'
 def get_first_name_of_season_winner(data, season)
   data.each do |year, contestant_hash|
-    binding.pry
     if contestant_hash["status"] == "winner"
       return contestant_hash["name"]
     end
